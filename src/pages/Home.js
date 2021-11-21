@@ -1,4 +1,5 @@
 import React from 'react'
+import Courosel from '../components/Courosel'
 import Header from '../components/Header'
 
 export default function Home() {
@@ -10,11 +11,11 @@ export default function Home() {
                      <h1>YONATHAN...</h1>
                      <div className="intro-content d-flex justify-content-between">
                          <p>FULL Stack <br/> Developer, Front-End</p>
-                         <button className='primary-button font-bold w-50'>Get Started</button>
+                         <button className='primary-button font-bold'>Get Started</button>
 
                      </div>
                  </div>
-
+                 <Courosel/>
              </div>
         </div>
     )

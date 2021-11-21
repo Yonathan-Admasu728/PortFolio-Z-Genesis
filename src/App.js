@@ -6,6 +6,7 @@ import Courses from './pages/Courses';
 import Contact from './pages/Contact';
 import './stylesheets/home.css';
 import './stylesheets/header-footer.css';
+import './stylesheets/courosel.css';
 
 function App() {
   return (
