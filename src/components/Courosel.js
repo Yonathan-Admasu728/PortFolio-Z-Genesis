@@ -1,10 +1,10 @@
 import React from 'react'
-import {FaAngular, FaBootstrap, FaCss3, FaHtml5, FaJava, FaPython, FaNodeJs, FaReact} from 'react-icons/fa'
+import {FaGithubSquare, FaBootstrap, FaCss3, FaHtml5, FaDocker, FaPython, FaNodeJs, FaReact, FaJava } from 'react-icons/fa'
 function Courosel() {
     return (
         <div>
             
-            <div className='courosel-parent position-relative' id='courosel'>
+            <div className='courosel-parent position-relative' id='courosel'  >
               <h1 className='position-absolute top-0 start-0 end-0 text-center mt-5'>Technologes I use</h1>
 
               <div className='gallery'>
@@ -14,11 +14,15 @@ function Courosel() {
                   </span>
 
                   <span style={{'--i' : 2}}>
-                      <FaAngular color='orangered'/>
+                      <FaGithubSquare color='orangered'/>
+                  </span>
+
+                  <span style={{'--i' : 9}}>
+                      <FaJava color='brown'/>
                   </span>
 
                   <span style={{'--i' : 3}}>
-                      <FaJava color='orange'/>
+                      <FaDocker color='purple'/>
                   </span>
 
                   <span style={{'--i' : 4}}>
@@ -26,7 +30,7 @@ function Courosel() {
                   </span>
 
                   <span style={{'--i' : 5}}>
-                      <FaPython color='yellow'/>
+                      <FaPython color='lime'/>
                   </span>
 
                   <span style={{'--i' : 6}}>

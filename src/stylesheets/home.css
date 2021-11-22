@@ -51,13 +51,30 @@
     transition: all 0.5s;
     overflow: none !important;
 }
-/* .who-is-yonathan:hover{
+.who-is-yonathan:hover{
    transform: scale(1.05);
    overflow: none !important;
-} */
+}
 pre{
     font-size: 18px;
     font-family: "Montserrat", sans-serif !important;
+}
+
+.imageplus {
+    display: inline;
+    justify-content: flex-start;
+}
+.yonathan-img {
+    margin-top: 50px;
+    animation: project-animation 10s linear infinite;
+}
+.yonathan-img img {
+    border-radius: 60%;
+    z-index: 1;
+}
+.yonathan-img img:hover {
+    transform: scale(1.05);
+    overflow: none !important;
 }
 
 
@@ -82,10 +99,30 @@ pre{
     background-size: 200% 100%;
     height: 100vh;
     color:white;
-    background-position: center;
+    background-position: right;
+
 }
 pre{
     font-size: 14px;
     font-family: "Montserrat", sans-serif !important;
+}
+
+.imageplus {
+    display: inline;
+    justify-content: flex-start;
+}
+.yonathan-img {
+    margin-top: 50px;
+    animation: project-animation 10s linear infinite;
+}
+.yonathan-img img {
+    width: 60%;
+    height: 60%;
+    border-radius: 60%;
+    z-index: 1;
+}
+.yonathan-img img:hover {
+    transform: scale(1.05);
+    overflow: none !important;
 }
 }
