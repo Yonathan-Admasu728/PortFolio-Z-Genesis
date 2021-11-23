@@ -1,6 +1,7 @@
 import React from "react";
 import Courosel from "../components/Courosel";
 import Header from "../components/Header";
+import HeaderButton from "../components/HeaderButton";
 import ImageData from "./ImageData";
 
 
@@ -15,15 +16,16 @@ function Home() {
         style={{ backgroundImage: `url('./introbg.svg')` }}
       >
         <div>
-          <h1 data-aos="fade-up">YONATHAN...</h1>
+        <span1>My name is,</span1>
+          <h1 data-aos="fade-up">YONATHAN <br/><span className="line-1 anim-typewriter">and this is my portfolio... </span></h1>
+          
+          
 
           <div className="intro-content d-flex justify-content-between">
             <p>
               FULL Stack Developer/ <br /> Front-End Engineer
             </p>
-            <button className="primary-button font-bold">
-              <a href="#courosel">Get Started</a>
-            </button>
+            <HeaderButton/>
           </div>
         </div>
       </div>

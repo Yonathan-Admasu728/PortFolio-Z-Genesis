@@ -1,0 +1,24 @@
+.mx-auto button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:orangered;
+    font-size: 1rem;
+    height:65%;
+    border-radius: 25px;
+    border:none;
+    width: auto;
+    font-weight: bold;
+    opacity: 0.8;
+}
+.mx-auto button:hover{
+    background-color:orange;
+    color: white;
+    cursor: default;
+    text-shadow: 0px 0px 10px #fff;
+ }
+.mx-auto a{    
+text-decoration: none;
+color: black;
+
+}
