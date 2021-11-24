@@ -7,9 +7,9 @@ const HeaderButton = () => {
     return (
         <>
             <div className="mx-auto">
-                <a href="#courosel"><button className="see">&nbsp;Checkout Portfolio &nbsp;<span>
+                <a href="#courosel"><button className="see">Checkout Portfolio <span>
                       <FaEye color='black' fontSize="1.8rem"/>
-                  </span>&nbsp;</button></a>
+                  </span></button></a>
             </div>
         </>
     )

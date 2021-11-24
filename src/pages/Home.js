@@ -16,14 +16,15 @@ function Home() {
         style={{ backgroundImage: `url('./introbg.svg')` }}
       >
         <div>
-        <span1>My name is,</span1>
-          <h1 data-aos="fade-up">YONATHAN <br/><span className="line-1 anim-typewriter">and this is my portfolio... </span></h1>
+        <span>My name is,</span>
+          <h1 data-aos="fade-up">Yonathan </h1>
+          <h3 className="line-1 anim-typewriter">and this is my portfolio... </h3>
           
           
 
           <div className="intro-content d-flex justify-content-between">
             <p>
-              FULL Stack Developer/ <br /> Front-End Engineer
+              FULL Stack Developer/ <br /> <span1>Front-End Engineer</span1>
             </p>
             <HeaderButton/>
           </div>
