@@ -66,9 +66,25 @@
    transform: scale(1.05);
    overflow: none !important;
 }
-pre{
-    font-size: 18px;
+.wy {
+    font-size: 1.2rem;
     font-family: "Montserrat", sans-serif !important;
+    color: brown;
+    opacity: 0.7;
+
+}
+.wy:hover {
+    text-shadow: 0px 0px 10px rgb(138, 106, 106);
+
+}
+
+.projects-intro h3 {
+    color: brown;
+    opacity: 0.7;
+}
+.projects-intro h3:hover {
+    text-shadow: 0px 0px 10px rgb(138, 106, 106);
+
 }
 
 .imageplus {

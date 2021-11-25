@@ -4,8 +4,6 @@ import Header from "../components/Header";
 import HeaderButton from "../components/HeaderButton";
 import ImageData from "./ImageData";
 
-
-
 function Home() {
   return (
     <div>
@@ -16,17 +14,17 @@ function Home() {
         style={{ backgroundImage: `url('./introbg.svg')` }}
       >
         <div>
-        <span>My name is,</span>
+          <span>My name is,</span>
           <h1 data-aos="fade-up">Yonathan </h1>
-          <h3 className="line-1 anim-typewriter">and this is my portfolio... </h3>
-          
-          
+          <h3 className="line-1 anim-typewriter">
+            and this is my portfolio...{" "}
+          </h3>
 
           <div className="intro-content d-flex justify-content-between">
             <p>
               FULL Stack Developer/ <br /> <span1>Front-End Engineer</span1>
             </p>
-            <HeaderButton/>
+            <HeaderButton />
           </div>
         </div>
       </div>
@@ -73,8 +71,8 @@ function Home() {
             <div className="n-box2 p-5 font-bold" data-aos="fade-left">
               <p>
                 JavaScript is one of the most top-ranked programming languages
-                because of its ubiquitous use on all platforms and mass
-                adoption of frameworks for Web Development.
+                because of its ubiquitous use on all platforms and mass adoption
+                of frameworks for Web Development.
               </p>
             </div>
           </div>
@@ -139,43 +137,34 @@ function Home() {
       </div>
 
       <div>
-        <h3 className="font-bold text-center">Who is YONATHAN</h3>
-        <div className="imageplus">
-        <div
-              className="yonathan-img">
-              {ImageData.map(image => {
-                return (
-                 <div className="position-relative yonathan-img">
-                   <img src={image.image} alt="smiley" />
-                 </div>
-                )
-              })}
+      
+      <div className="container projects-intro">
+      <div>
+        <h3 className="font-bold text-center">Who is Yonathan? </h3>
+        <div className="row flex-with-center mt-5">
+          <div className="col-md-6 n-box2 px-3 py-5" data-aos='fade-down'>
+            <div className='wy'>
+              <p className="font-bold">
+              My name is Yonathan Admasu, but I go by Yoni. I specialize in full stack web development  with a passion for Front-End Engineering. I love to build beautiful simplistic websites and apps that creatively solve problems which provides services around the world.
+              </p>
             </div>
-        <div
-          className="who-is-yonathan flex-with-center"
-          style={{ backgroundImage: `url('/whoisYONATHAN.svg')` }}
-        >
-          <div>
-            <h3>Hi! and Hello!... </h3>
-            <hr />
-            <p>
-              <pre>
-                {JSON.stringify(
-                  {
-                    name: "Yonathan Admasu",
-                    allAbout: "Good Vibes",
-                    Origin: "Ethiopia",
-                    Home: "Las Vegas",
-                  },
-                  null,
-                  2
-                )}
-              </pre>
-            </p>
+          </div>
+
+          <div className="col-md-6 position-relative">
+          <div className="yonathan-img">
+            {ImageData.map((image) => {
+              return (
+                <div className="position-relative yonathan-img">
+                  <img src={image.image} alt="smiley" />
+                </div>
+              );
+            })}
+          </div>
           </div>
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 }

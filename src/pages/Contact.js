@@ -19,7 +19,7 @@ function Contact() {
 
                   <textarea className="form-control" rows={3} defaultValue={""} />
 
-                  <button className='primary-button mt-3'>SUMBIT</button>
+                  <button className='primary-button mt-3'>SUBMIT</button>
               </div>
           </div>
         </div>
