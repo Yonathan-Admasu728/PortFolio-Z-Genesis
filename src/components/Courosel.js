@@ -18,7 +18,7 @@ function Courosel() {
                   </span>
 
                   <span style={{'--i' : 9}}>
-                      <FaJava color='brown'/>
+                      <FaJava color='hsl(317 100% 54%)'/>
                   </span>
 
                   <span style={{'--i' : 3}}>
@@ -38,7 +38,7 @@ function Courosel() {
                   </span>
 
                   <span style={{'--i' : 7}}>
-                      <FaHtml5 color='orange'/>
+                      <FaHtml5 color='brown'/>
                   </span>
 
                   <span style={{'--i' : 8}}>
