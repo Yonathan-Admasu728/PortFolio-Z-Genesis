@@ -14,7 +14,7 @@ function Projects() {
               <h1 className="font-bold">Projects</h1>
               <p className="font-bold">
                 Good ideas are not adopted automatically. They must be driven
-                into practice with courageous patience
+                into practice with courage and patience
               </p>
               <GlowFunButton/>
             </div>

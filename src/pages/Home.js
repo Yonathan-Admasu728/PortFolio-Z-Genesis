@@ -74,7 +74,7 @@ function Home() {
               <p>
                 JavaScript is one of the most top-ranked programming languages
                 because of its ubiquitous use on all platforms and mass
-                adoption. Main Use Cases: Web Development.
+                adoption of frameworks for Web Development.
               </p>
             </div>
           </div>
