@@ -12,7 +12,7 @@
      margin-bottom: 0;
      font-weight: bold;
      color: rgba(255, 255, 255, 0.466);
-     font-size: 100px;
+     font-size: 5rem;
 }
 .introduction div h1:hover{
    color: white;
@@ -22,14 +22,13 @@
 
 .introduction div span {
     font-size: 2rem;
-    color: orangered;
+    color: rgba(228, 67, 156, 0.575);
 }
 .introduction div span:hover {
-    opacity: 0.7;
+    opacity: 0.;
 }
-.introduction div span1 {
-    color: white;
-    text-shadow: 0px 0px 10px #fff;
+.introduction div p {
+    color: rgba(255, 255, 255, 0.74);
 }
 .introduction div h3 {
   margin-top: 0;

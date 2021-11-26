@@ -22,7 +22,7 @@ function Home() {
 
           <div className="intro-content d-flex justify-content-between">
             <p>
-              FULL Stack Developer/ <br /> <span1>Front-End Engineer</span1>
+              FULL Stack Developer/ <br /> Front-End Engineer
             </p>
             <HeaderButton />
           </div>
