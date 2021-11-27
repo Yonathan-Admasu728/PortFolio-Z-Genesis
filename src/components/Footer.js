@@ -4,8 +4,9 @@ import {
   FaGithub,
   FaInstagram,
   FaLinkedinIn,
-  FaMailBulk,
+  FaTwitter,
 } from "react-icons/fa";
+import {  social } from '../components/profile';
 
 function Footer() {
   return (
@@ -26,11 +27,11 @@ function Footer() {
               <hr />
 
               <div className="d-flex justify-content-between px-2">
-                <FaFacebook className="footer-icons" />
-                <FaInstagram className="footer-icons" />
-                <FaMailBulk className="footer-icons" />
-                <FaLinkedinIn className="footer-icons" />
-                <FaGithub className="footer-icons" />
+              <a  rel="noopener noreferrer" target="_blank"  href={social.facebook}><FaFacebook className="footer-icons"/></a>
+              <a  rel="noopener noreferrer" target="_blank"  href={social.instagram}><FaInstagram className="footer-icons"/></a>
+              <a  rel="noopener noreferrer" target="_blank"  href={social.twitter}><FaTwitter className="footer-icons"/></a>
+              <a  rel="noopener noreferrer" target="_blank"  href={social.linkedin}><FaLinkedinIn  className="footer-icons"/></a>
+              <a  rel="noopener noreferrer" target="_blank"  href={social.github}><FaGithub className="footer-icons"/></a>
               </div>
 
               <hr />

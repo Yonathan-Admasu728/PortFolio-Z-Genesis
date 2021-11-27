@@ -109,17 +109,22 @@
     .introduction div h1{
         font-weight: bold;
         color: rgba(255, 255, 255, 0.514);
-        font-size: 75px;
+        font-size: 3rem;
    }
   
-   .primary-button{
-    background-color:white;
+   .see {
     height:45px;
-    border-radius:25px;
+    border-radius:2em;
     border:none;
     width: auto;
     padding: 5px 15px;
 }
+
+.introduction div h3 {
+    margin-top: 0;
+    font-size:  2rem;
+    color: rgba(255, 255, 255, 0.466);
+  }
 
 .who-is-yonathan{
     background-size: 200% 100%;

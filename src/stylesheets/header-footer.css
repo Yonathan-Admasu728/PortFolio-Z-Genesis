@@ -84,24 +84,22 @@
   .form-control{
     box-shadow: none;
   }
-  .contact button{
-    background-color: rgba(0, 0, 255, 0.856);
-    color: white;
-    font-weight: bold;
-  }
   
-  
+
   .footer-content{
     background-color: #001220;
     text-align:center;
-    color: #fff;
+    color: rgba(0, 255, 255, 0.418);
+    font-size: 1rem;
+    padding: 1px 1px;
   }
   
-  .footer-icons svg{
-    color: white;
+  .footer-icons {
+    color: rgba(255, 68, 0, 0.589);
+    font-size: 2rem;
   }
   .footer-icons:hover{
-    color: cyan;
+    color: rgba(0, 255, 255, 0.418);
     transform: scale(1.5);
     cursor: pointer;
   }

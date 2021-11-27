@@ -10,7 +10,7 @@ function ThinkingAbout() {
           <div className="col-md-6 n-box2 px-3 py-5" data-aos='fade-down'>
             <div>
               <p className="font-bold">
-                Thinking to use my knowledge and skills to accomplish good in the world.
+                Thinking about using my knowledge and skills to accomplish good in the world.
                 Good ideas are not adopted automatically. They must be driven
                 into practice with courage and patience
               </p>

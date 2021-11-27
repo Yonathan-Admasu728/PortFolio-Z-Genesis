@@ -1,4 +1,11 @@
 const projectsdata = [
+     {
+      title: "weather-APi",
+      image: "./weatherApp.svg",
+      description:
+        " Tell me any city in the world and I will tell you the temprature.This API developed using  node & express",
+      link: "/https://yoni-weather-app.herokuapp.com/",
+    },
     {
       title: "YONI-SHOP",
       image: "./ecommerce.svg",
@@ -9,13 +16,6 @@ const projectsdata = [
     {
       title: "YONI-PIZZA",
       image: "./pizzas.svg",
-      description:
-        "An ecommerce application developed using react , node , redux and mongodb",
-      link: "/",
-    },
-    {
-      title: "YONI-ROOMS",
-      image: "./hotels.svg",
       description:
         "An ecommerce application developed using react , node , redux and mongodb",
       link: "/",
