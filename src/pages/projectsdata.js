@@ -4,7 +4,7 @@ const projectsdata = [
       image: "./weatherApp.svg",
       description:
         " Tell me any city in the world and I will tell you the temprature.This API developed using  node & express",
-      link: "/https://yoni-weather-app.herokuapp.com/",
+      link: "https://yoni-weather-app.herokuapp.com/",
     },
     {
       title: "YONI-SHOP",
