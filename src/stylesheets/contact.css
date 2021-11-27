@@ -50,11 +50,11 @@
     align-items: center;
   }
   .git-form {
-    width: 1160px;
+    width: 1000px;
     box-sizing: border-box;
     display: block;
     margin: 3rem 3rem 0 3rem;
-    background-color: rgb(124, 126, 121);
+    background-color: rgba(124, 126, 121, 0.514);
     max-height: 80vh;
     border-radius: 45px;
   }
@@ -108,6 +108,9 @@
     margin-top: 5px;
     margin-left: 20px;
    
+  }
+  .res-download {
+    color: limegreen;
   }
   .half form button:hover {
     background-color: var(--hover-color);
@@ -329,7 +332,7 @@
     .git-form {
       width: 90%;
       padding: 5px;
-      padding-bottom: 35px;
+      padding-bottom: 5px;
     }
     .git-head-div {
       width: 75%;
@@ -340,12 +343,14 @@
     }
     .half form input,
     textarea {
-      margin: 5px 0;
-      padding: 10px;
+      margin: 5px;
+      padding: 5px;
     }
-    .half p {
-      display: none;
-    }
+     .half p {
+      background-color: rgba(255, 255, 255, 0.61);
+      padding: 2px;
+      border-radius: 25px;
+    } 
     .gtp {
       left: 80%;
       top: 87%;
@@ -373,3 +378,5 @@
   .rs-icons {
       font-size: 5rem;
   }
+
+ 
