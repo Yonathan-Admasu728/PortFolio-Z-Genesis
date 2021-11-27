@@ -140,12 +140,12 @@ function Home() {
       
       <div className="container projects-intro">
       <div>
-        <h3 className="font-bold text-center">Who is Yonathan? </h3>
+        <h3 className="font-bold text-center">Who am I? </h3>
         <div className="row flex-with-center mt-5">
           <div className="col-md-6 n-box2 px-3 py-5" data-aos='fade-down'>
             <div className='wy'>
               <p className="font-bold">
-              My name is Yonathan Admasu, but I go by Yoni. I specialize in full stack web development  with a passion for Front-End Engineering. I love to build beautiful simplistic websites and apps that creatively solve problems which provides services around the world.
+              My name is Yonathan Admasu. I specialize in full stack web development  with a passion for Front-End Engineering. I love to build beautiful, simplistic websites and apps that creatively solve problems which provides services around the world.
               </p>
             </div>
           </div>

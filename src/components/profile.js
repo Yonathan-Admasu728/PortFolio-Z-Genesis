@@ -20,7 +20,7 @@ const animation = {
   const section2title = "About Me";
   const about = {
     paragraph:
-      "My name is Yonathan Admasu, but I go by Yoni. I specialize in full stack web development  with an eye for design concepts. I create beautiful simplistic websites that creatively solve problem which provides services, and apps around the world. ",
+      "My name is Yonathan Admasu. I specialize in full stack web development with passion for Front-End Engineering. I create beautiful simplistic websites that creatively solve problem which provides services, and apps around the world. ",
   };
   // Edit your skill and the percentage you know about it
   // To Add a skill, copy any one below and paste it after the last comma
