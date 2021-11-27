@@ -73,13 +73,14 @@
 
 }
 .wy:hover {
-    text-shadow: 0px 0px 10px rgb(138, 106, 106);
+    text-shadow: 0px 0px 10px rgba(124, 121, 121, 0.699);
 
 }
 
 .projects-intro h3 {
     color: brown;
     opacity: 0.7;
+    margin: 1px;
 }
 .projects-intro h3:hover {
     text-shadow: 0px 0px 10px rgb(138, 106, 106);
@@ -147,9 +148,9 @@ pre{
     justify-content: flex-start;
 }
 .yonathan-img {
-    margin-top: 50px;
+    margin-top: 5px;
     animation: project-animation 10s linear infinite;
-    margin-left: 3rem;
+    margin-left: 1rem;
 }
 .yonathan-img img {
     width: 60%;
@@ -161,4 +162,14 @@ pre{
     transform: scale(1.05);
     overflow: none !important;
 }
+
+.wy {
+    font-size: 0.9rem;
+    font-family: "Montserrat", sans-serif !important;
+    color: brown;
+    opacity: 0.7;
+    margin: 5px;
+
+}
+
 }
