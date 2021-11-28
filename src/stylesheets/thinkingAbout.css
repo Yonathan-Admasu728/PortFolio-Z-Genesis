@@ -1,0 +1,13 @@
+.size-med {
+    width: 60%;
+    margin-left: 250px;
+}
+
+@media(max-width:750px) {
+    .size-med {
+        width: 100%;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}
+

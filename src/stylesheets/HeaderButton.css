@@ -16,7 +16,9 @@
     cursor: pointer;
     text-decoration: none;
     color: var(--clr-neon);
-    border: var(--clr-neon) 0.125em solid;
+    /* border: var(--clr-neon) 0.125em solid; */
+    border:none;
+    width: auto;
     padding: 1em 1em;
     border-radius: 2em;
   
@@ -59,7 +61,12 @@
   .mx-auto button:hover,
   .mx-auto button:focus {
     color: var(--clr-bg);
-    text-shadow: grey;
+    text-shadow: white;
+  }
+
+  .mx-auto button span2:hover,
+  .mx-auto button span2:focus {
+    color: var(--clr-neon);
   }
   
   .mx-auto button:hover::before,
@@ -70,3 +77,26 @@
   .mx-auto button:focus::after {
     opacity: 1;
   }
+
+@media(max-width:750px) {
+
+  .mx-auto button {
+    height:45px;
+    border-radius:2em;
+    border:none;
+    width: auto;
+    padding: 5px 5px;
+    font-size: 1.6;
+  }
+
+  .mx-auto button:hover,
+  .mx-auto button:focus {
+    color: var(--clr-bg);
+  }
+
+  .mx-auto button span2:hover,
+  .mx-auto button span2:focus {
+    color: var(--clr-neon);
+  }
+
+}

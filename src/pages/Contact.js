@@ -36,7 +36,7 @@ const Contact = () => {
                     </p>
                     <div className="rs">
                 <div className="d-flex justify-content-center align-items-center flex-column ">
-                    {social.resume && <a title="Download Resume" href={social.resume} download><span className='res-download'>resume</span><br/><FaFileDownload color='#6207f0' fontSize='3em' opacity='0.5'/></a>}
+                    {social.resume && <a title="Download Resume" href={social.resume} download><span className='res-download'>resume</span><br/><FaFileDownload color='#36136eb4' fontSize='3em' opacity='0.5'/></a>}
                 </div>
                 </div>
                 </div>
