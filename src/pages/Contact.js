@@ -1,53 +1,87 @@
 import React from 'react';
-import Header from "../components/Header";
-import { contact, section5Title, social } from '../components/profile';
+import { social } from '../components/profile';
+import { useForm, ValidationError } from '@formspree/react';
 import '../stylesheets/contact.css';
 // import AOS from "aos";
 import "aos/dist/aos.css";
 
-import { FaFileDownload } from 'react-icons/fa'
+ import { FaFileDownload, FaLaptopCode } from 'react-icons/fa'
 
-const Contact = () => {
-    
-    return (
-      <div>
-        <Header/>
-        <div className="parallax">
-                <div data-aos="zoom-in-up" data-aos-once="true" className="git-form">
-                    <>
-                <div className="git-head-div text-center mx-auto">
-                        <h1 id="Contact" className="git-head">{section5Title}</h1>
-                </div>
-                </>
-                <div className="container">
-            <div className="git-cont row">
-                <div className="col-12 col-sm-6 half">
-                    <form action={contact.contactUrl ? contact.contactUrl : "https://www.linkedin.com/in/yonathanadmasu/"} method={contact.contactUrl ? "POST" : "GET"}>
-                        <input type="text" id="fname" name="firstname" placeholder="Your name" required></input>
-                        <input type="mail" id="mailid" name="Email" placeholder="Email Address" required></input>
-                        <input type="text" id="sub" name="Subject" placeholder="Subject" required></input>
-                        <textarea id="msg" name="message" placeholder="Message" required></textarea>
-                        <button style={ {background: '#786399'}} type="submit">Send Message</button>
-                    </form>
-                </div>
-                <div className="col-12 col-sm-6 half " >
-                    <p>
-                    Feel free to contact me by submitting this form, clicking on LinkedIn, Tweeter,and please click on Resume icons to see my Resume.
-                    </p>
-                    <div className="rs">
-                <div className="d-flex justify-content-center align-items-center flex-column ">
-                    {social.resume && <a title="Download Resume" href={social.resume} download><span className='res-download'>resume</span><br/><FaFileDownload color='#36136eb4' fontSize='3em' opacity='0.5'/></a>}
-                </div>
-                </div>
-                </div>
-            </div>
-            </div>
+function Contact() {
+  return (
+    <div
+        className="introduction flex-with-center"
+        style={{ backgroundImage: `url('./cont.svg')` }}
+      >
+      <div className="container contact mt-5">
+        <div className="row pt-5">
+          <div className="col-md-6 p-5">
+              <div className='tpl' >
+              <p className='pitch' style={{color: '#077e85'}}>
+                Please feel free to contact me by submitting this form, check me on LinkedIn, Tweeter, and please checkout Projects Demo and click on Resume icons to see my Resume.
+              </p>
+                 <div className="d-flex justify-content-center align-items-center flex-row ">
+                     {social.resume && <a title="Download Resume" href={social.resume} download>resume<br/><FaFileDownload color='#36136eb4' fontSize='3rem' opacity='0.9'/></a>}  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;
+
+                     { <a title="Projects Demo" href="/" download>Projects<br/><DemoButton/></a>}
+                 </div>
+                 </div>
+          </div>
+
+          <div className="col-md-6">
+              <div className='contact-form m-2 p-5 n-box2'>
+                  <h3 className='font-bold' style={{color: '#077e85'}}>Get in Touch</h3>
+
+                  <hr />
+                  <ContactForm />
+              </div>
+          </div>
         </div>
-        </div>
-        </div>
-    )
-    
+      </div>
+    </div>
+  );
 }
 
-export default Contact
+export default Contact;
 
+function DemoButton() {
+    return (
+        <>
+            <div className="glow">
+                <a href="/projects"><button className="neon-button">&nbsp;<FaLaptopCode color='#36136eb4' fontSize='2.5em' opacity='0.9'/></button></a>
+            </div>
+        </>
+    )
+}
+
+
+
+
+
+function ContactForm() {
+  const [state, handleSubmit] = useForm("mknywzgn");
+  if (state.succeeded) {
+      return <p>It Is great to hear from you!</p>;
+  }
+  return (
+      <form onSubmit={handleSubmit}>
+      <input type="text" id="fname" name="name" placeholder="name" required></input>
+      <input type="email" id="email" name="email" placeholder="email " required></input>
+      <ValidationError 
+        prefix="Email" 
+        field="email"
+        errors={state.errors}
+      />
+      <textarea id="message" name="message" placeholder="Message" ></textarea>
+      
+      <ValidationError 
+        prefix="Message" 
+        field="message"
+        errors={state.errors}
+      />
+      <button type="submit" className='submit-btn' disabled={state.submitting}>
+        Submit
+      </button>
+    </form>
+  );
+}

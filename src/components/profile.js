@@ -144,7 +144,7 @@ const animation = {
     pitch:
       "Feel free to contact me by submitting this form, clicking on Github, LinkedIn, Tweeter,and please click on Resume icons to see my Resume.",
     copyright: "Yonathan Admasu",
-    contactUrl: "",
+    contactUrl: "https://formspree.io/f/mknywzgn",
   };
   // Paste your respective social media links. You can omit any if you dont have it
   // Upload your resume in your drive, get the shaareable link and paste it in the resume section

@@ -1,5 +1,6 @@
 import React from "react";
 import Courosel from "../components/Courosel";
+import Contact from "../pages/Contact";
 import Header from "../components/Header";
 import HeaderButton from "../components/HeaderButton";
 import ImageData from "./ImageData";
@@ -137,34 +138,38 @@ function Home() {
       </div>
 
       <div>
-      
-      <div className="container projects-intro">
-      <div>
-        <h3 className="font-bold text-center">Who am I? </h3>
-        <div className="row flex-with-center mt-5">
-          <div className="col-md-6 n-box2 px-3 py-5" data-aos='fade-down'>
-            <div className='wy'>
-              <p className="font-bold">
-              My name is Yonathan Admasu. I specialize in full stack web development  with a passion for Front-End Engineering. I love to build beautiful, simplistic websites and apps that creatively solve problems which provides services around the world.
-              </p>
-            </div>
-          </div>
-
-          <div className="col-md-6 position-relative">
-          <div className="yonathan-img">
-            {ImageData.map((image) => {
-              return (
-                <div className="position-relative yonathan-img">
-                  <img src={image.image} alt="smiley" />
+        <div className="container projects-intro">
+          <div>
+            <h3 className="font-bold text-center">Who am I? </h3>
+            <div className="row flex-with-center mt-5">
+              <div className="col-md-6 n-box2 px-3 py-5" data-aos="fade-down">
+                <div className="wy">
+                  <p className="font-bold">
+                    My name is Yonathan Admasu. I specialize in full stack web
+                    development with a passion for Front-End Engineering. I love
+                    to build beautiful, simplistic websites and apps that
+                    creatively solve problems which provides services around the
+                    world.
+                  </p>
                 </div>
-              );
-            })}
-          </div>
-          </div>
+              </div>
+
+              <div className="col-md-6 position-relative">
+                <div className="yonathan-img">
+                  {ImageData.map((image) => {
+                    return (
+                      <div className="position-relative yonathan-img">
+                        <img src={image.image} alt="smiley" />
+                      </div>
+                    );
+                  })}
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
+      <Contact/>
     </div>
   );
 }

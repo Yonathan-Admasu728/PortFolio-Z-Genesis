@@ -30,7 +30,7 @@ function Projects() {
             </svg>
 
             <FaLaptopCode
-              color="#f20ceb"
+              color="#059e9e"
               size="180"
               className="position-absolute top-50 start-50 translate-middle"
             />
