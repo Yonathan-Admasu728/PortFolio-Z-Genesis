@@ -117,16 +117,23 @@
   }
 
   .tpl a {
-    color: rgb(212, 11, 11);
+    color: #077e85;
     font-size: 1rem;
     text-decoration: none;
   }
 
   .submit-btn {
     border-radius: 25px;
-    background-color: rgba(58, 48, 58, 0.87);
+    background-color: #077e85;
     color: wheat;
     padding: 0.6rem;
+  }
+  .submit-btn:hover{
+    opacity: 0.7;
+  }
+
+  .icon-rp:hover {
+    opacity: 0.7;
   }
   .half form button:hover {
     background-color: var(--hover-color);
@@ -283,6 +290,9 @@
     z-index: 1;
     margin: 5px;
     
+  }
+  .tpl p:hover {
+    opacity: 0.7;
   }
 
 

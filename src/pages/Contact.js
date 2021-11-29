@@ -21,7 +21,7 @@ function Contact() {
                 Please feel free to contact me by submitting this form, check me on LinkedIn, Tweeter, and please checkout Projects Demo and click on Resume icons to see my Resume.
               </p>
                  <div className="d-flex justify-content-center align-items-center flex-row ">
-                     {social.resume && <a title="Download Resume" href={social.resume} download>resume<br/><FaFileDownload color='#36136eb4' fontSize='3rem' opacity='0.9'/></a>}  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;
+                     {social.resume && <a title="Download Resume" href={social.resume} download>resume<br/><FaFileDownload className='icon-rp' color='#36136eb4' fontSize='3rem' /></a>}  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;
 
                      { <a title="Projects Demo" href="/" download>Projects<br/><DemoButton/></a>}
                  </div>
@@ -48,7 +48,7 @@ function DemoButton() {
     return (
         <>
             <div className="glow">
-                <a href="/projects"><button className="neon-button">&nbsp;<FaLaptopCode color='#36136eb4' fontSize='2.5em' opacity='0.9'/></button></a>
+                <a href="/projects"><button className="neon-button">&nbsp;<FaLaptopCode className='icon-rp' color='#36136eb4' fontSize='2.5em'/></button></a>
             </div>
         </>
     )
