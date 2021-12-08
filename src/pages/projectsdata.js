@@ -10,8 +10,8 @@ const projectsdata = [
       title: "YONI-SHOP",
       image: "./ecommerce.svg",
       description:
-        "An ecommerce application developed using react , node , redux and mongodb",
-      link: "/",
+        "An ecommerce application developed using react , node , redux ,graphQl, contextApi stripes and firebase",
+      link: "https://yoni-shop.herokuapp.com/",
     },
     {
       title: "YONI-PIZZA",
