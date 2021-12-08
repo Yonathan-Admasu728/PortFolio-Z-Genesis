@@ -23,7 +23,7 @@ function Contact() {
                  <div className="d-flex justify-content-center align-items-center flex-row ">
                      {social.resume && <a title="Download Resume" href={social.resume} download>resume<br/><FaFileDownload className='icon-rp' color='#36136eb4' fontSize='3rem' /></a>}  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;
 
-                     { <a title="Projects Demo" href="#projects" download>Projects<br/><DemoButton/></a>}
+                     { <a title="Projects Demo" href="/projects" download>Projects<br/><DemoButton/></a>}
                  </div>
                  </div>
           </div>
