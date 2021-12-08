@@ -139,7 +139,7 @@ function Home() {
 
       <div>
         <div className="container projects-intro">
-          <div>
+          <div className="who">
             <h3 className="font-bold text-center">Who am I? </h3>
             <div className="row flex-with-center mt-5">
               <div className="col-md-6 n-box2 px-3 py-5" data-aos="fade-down">
